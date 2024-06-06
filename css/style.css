@@ -19,3 +19,13 @@ a {text-decoration:none; color: black; font-family: 'Gill Sans', 'Gill Sans MT',
 nav {
     border: 1px solid;
 }
+
+table {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+thead th {
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
