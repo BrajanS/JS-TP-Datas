@@ -1,6 +1,11 @@
-async function readJSON(url){
+export async function readJSON(url){
+    try {
     let data = await fetch(url)
-    return data.json()
+        if(data.ok){
+            return data.json();
+        }
+        return false;
+    }catch (err){
+        return false;
+    }
 }
-
-export default readJSON;
