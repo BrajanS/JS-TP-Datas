@@ -13,8 +13,8 @@ export function tableBuilder(a,b,c,d,e){
     role.textContent = e
 
     tr.appendChild(id)
-    tr.appendChild(prenom)
     tr.appendChild(nom)
+    tr.appendChild(prenom)
     tr.appendChild(email)
     tr.appendChild(role)
 
